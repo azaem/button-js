@@ -1,0 +1,51 @@
+.button{
+    padding: 15px 40px;
+    background: red;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 40px 10px;
+transition: 4s;
+}
+.button:active{
+    background: darkred;
+}
+.active{
+    border: 2px solid#000;
+    transform: scale(1.3);
+}
+.square{
+    width: 150px;
+    height: 150px;
+    background: mediumslateblue;
+}
+
+.rectangle{
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+}
+
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+}
